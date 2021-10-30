@@ -17,13 +17,22 @@ body {
     justify-content: center;
 }
 
+.instagram-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 935px;
+    height: 100%;
+}
+
 .instagram-wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
     max-width: 935px;
-    height: 100vh;
+    height: 85vh;              
     padding: 0 50px;
 }
 
@@ -107,6 +116,10 @@ body {
     color: rgb(160, 160, 160);
 }
 
+.notaccount a {
+    color: #0095f6;
+}
+
 .link-blue {
     color: #0095f6;
 }
@@ -146,6 +159,85 @@ body {
     justify-self: center;
 }
 
+.instagram-footer {
+    display: flex;
+    width: 100%;
+    min-height: 10vh;
+    height: auto;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    max-width: 935px;
+    padding: 0 50px;
+    color: #8e8e8e;
+}
+
+.footer-items {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    flex-grow: 2;
+    flex-wrap: wrap;
+    padding: 0 10px 0 10px;
+    margin-bottom: 5px;
+}
+
+.footer-items a {
+    color: #8e8e8e;
+    font-size: 13px;
+}
+
+.footer-items li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 0 8px 0 8px;
+}
+
+.footer-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-end {
+    display: flex;
+    justify-content: center;
+    margin: 5px 0;
+    width: 100%;
+}
+
+.footer-end p {
+    font-size: 13px;
+}
+
+.end-one {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 10px 0 0;
+}
+
+.end-two {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 0 0 10px;
+}
+
+
+
+
 /* media queries */
 
 @media  (max-width: 935px) {
@@ -165,5 +257,10 @@ body {
 
     .instagram-continue {
         width: 100%;
+    }
+
+    .instagram-footer {
+        width: 100%;
+        justify-content: center;
     }
 } 
