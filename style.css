@@ -15,6 +15,7 @@ body {
     padding: 0;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .instagram-page {
@@ -23,7 +24,6 @@ body {
     align-items: center;
     justify-content: center;
     max-width: 935px;
-    height: 100%;
 }
 
 .instagram-wrapper {
@@ -33,7 +33,7 @@ body {
     width: 100%;
     max-width: 935px;
     height: 85vh;              
-    padding: 0 50px;
+    padding: 20px 50px;
 }
 
 .instagram-phone {
@@ -262,5 +262,20 @@ body {
     .instagram-footer {
         width: 100%;
         justify-content: center;
+    }
+} 
+
+@media  (max-height: 700px) {
+
+    .instagram-page {
+        min-height: 700px;
+    }
+
+    .instagram-wrapper {
+        min-height: 595px;
+    }
+
+    .instagram-footer {
+        min-height: 70px;
     }
 } 
